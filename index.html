@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnonimaWeb |2023 🥇 - Whatsapp Web</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/icons8-whatsapp-32.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <header>
+    </header>
+    <main>
+        <section class="box1">
+            <img class="img1" src="img/Whatsapp Icon.png" alt="">
+            <h1>Introduza o número de telefone <span>WhatsApp que pretende clonar</span></h1>
+        </section>
+
+        <section class="box1">
+            <div class="row">
+                <div class="cod">
+                    <p>+55</p>
+                    <img width="24" src="https://img.icons8.com/color/48/brazil.png" alt="brazil" />
+                </div>
+                <input oninput="formatarTelefone(); verificarTelefone()" type="text" id="telefone"
+                    placeholder="Digite o número do WhatsApp aqui">
+            </div>
+            <button onclick=" abrirPagina();salvarInformacao()" disabled="true" id="botao">Clonar WhatsApp</button>
+            <p>*Esta ferramenta é 100% anônima*</p>
+            <p>Não responda as mensagens para manter sigilo.</p>
+        </section>
+
+        <section class="box1">
+            <div class="container">
+                <div class="item">
+                    <img width="24" src="https://img.icons8.com/218c7e/48/android-os.png" alt="android-os" />
+                    <p>Android</p>
+                </div>
+                <div class="item">
+                    <img width="24" src="https://img.icons8.com/ios-filled/50/218c7e/mac-os.png" alt="mac-os" />
+                    <p>iPhone</p>
+                </div>
+                <div class="item">
+                    <img width="24" src="https://img.icons8.com/ios-filled/50/218c7e/windows-10.png" alt="windows-10" />
+                    <p>Mac e Windows</p>
+                </div>
+                <div class="item">
+                    <img width="24" src="https://img.icons8.com/ios-glyphs/50/218c7e/monitor.png" alt="monitor" />
+                    <p>Windows Phone</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="status">
+            <div class="total">
+                <h2>Total de Whatsapp Clonados</h2>
+                <p>92.454</p>
+            </div>
+            <div class="atualizada">
+                <h2>Ferramenta Atualizada em :</h2>
+                <div id="dataDiv"></div>
+            </div>
+        </section>
+
+        <section class="comentarios">
+            <h1>Exibindo 28 de 1.859 comentários</h1>
+            <div class="box2">
+                <img src="img/img1.jpg" alt="">
+                <textarea name="" id="" cols="30" rows="7" placeholder="Comentar"></textarea>
+
+            </div>
+            <div class="enviar">
+                <a onclick="exibirAlerta()" href=""><img width="48"
+                        src="https://img.icons8.com/fluency-systems-filled/48/717171/sent.png" alt="sent" /></a>
+            </div>
+
+            <div class="box2">
+                <img src="img/0.jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>Anonimaweb</h1>
+                        <p>Fixado</p>
+                    </div>
+                    <p>Sejam todos bem vindos, reservamos essa área de comentários para aqueles que estão cadastrados em
+                        nosso sistema, desta maneira vocês podem comentar o que estão achando do no nosso site. Descubra
+                        nesse vídeo abaixo como funciona👇🏼!!</p>
+                    <iframe width="300" src="https://www.youtube.com/embed/FrmTVYxKldM" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>1h</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>36</p>
+
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/0 (1).jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>Laura Hidalgo</h1>
+                    </div>
+                    <p>O único site que realmente funciona comigo, já tinha tentado de tudo para conseguir hackear o
+                        whatsapp de meu marido , pois estava desconfiada dele ,ele nem deixava pegar o celular dele ,
+                        começou a ficar estranho e sair tarde , até mudou a senha , resolvi então utilizar esse site , e
+                        descobri que meu marido tinha uma amante, e estava me traindo , estou muito triste é também
+                        muito aliviada porque se não fosse esse site eu nunca iria saber que estava levando chifre !!
+                        muito bom mesmo recomendo pessoal!</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>20 minutos</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>48</p>
+
+                </div>
+            </div>
+            <div id="espaco">
+                <div class="box2">
+                    <img src="img/0.jpg" alt="">
+                    <div class="box3">
+                        <div class="nick">
+                            <h1>Anonima Web</h1>
+                        </div>
+                        <p>Fico Feliz em saber que nós estamos ajudando centenas de pessoas e ter uma vida mais justa e
+                            verdadeira, muito obrigado por ultilizar nosso site.</p>
+                    </div>
+
+                </div>
+                <div class="box4">
+                    <div class="curti">
+                        <p class="res" href="">Curtir</p>
+                        <p class="res">Responder</p>
+                        <p>20 minutos</p>
+                    </div>
+
+                    <div class="like">
+                        <img src="img/like.png" alt="">
+                        <img src="img/love.png" alt="">
+                        <p>11</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/4.jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>Debora Gonçalves</h1>
+                    </div>
+                    <p>Por que toda vez que eu vou clonar eu tenho que colocar o DDD e o número da pessoa de novo? não
+                        tem como ficar já lá salvo em?</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>12h</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>29</p>
+
+                </div>
+            </div>
+            <div id="espaco">
+                <div class="box2">
+                    <img src="img/0.jpg" alt="">
+                    <div class="box3">
+                        <div class="nick">
+                            <h1>Anonima Web</h1>
+                        </div>
+                        <p>Atualizamos o site e agora é possivel sim deixar salvo.</p>
+                    </div>
+
+                </div>
+                <div class="box4">
+                    <div class="curti">
+                        <p class="res" href="">Curtir</p>
+                        <p class="res">Responder</p>
+                        <p>12h</p>
+                    </div>
+
+                    <div class="like">
+                        <img src="img/like.png" alt="">
+                        <img src="img/love.png" alt="">
+                        <p>21</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/0 (2).jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>Ethan Connor</h1>
+                    </div>
+                    <p>pow mano como eu não pensei nisso em, vou fazer isso também vlw pelo dica ae...</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>4h</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>75</p>
+
+                </div>
+            </div>
+            <div id="espaco">
+                <div class="box2">
+                    <img src="img/0.jpg" alt="">
+                    <div class="box3">
+                        <div class="nick">
+                            <h1>Anonima Web</h1>
+                        </div>
+                        <p>Ve se não perde tempo viu kkkk, vimos aqui que sua mulher ta aprontando contigo.</p>
+                    </div>
+
+                </div>
+                <div class="box4">
+                    <div class="curti">
+                        <p class="res" href="">Curtir</p>
+                        <p class="res">Responder</p>
+                        <p>4h</p>
+                    </div>
+
+                    <div class="like">
+                        <img src="img/like.png" alt="">
+                        <img src="img/love.png" alt="">
+                        <p>60</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/8.jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>Marisa Filha</h1>
+                    </div>
+                    <p>Nossaaa não sei se eu agradeço ou xingo esse site por causa dele descobrir uma traição do meu
+                        atual namorado ! 😭😭</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>2h</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>93</p>
+
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/12.jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>André Oliveira</h1>
+                    </div>
+                    <p>Parabéns pelo site em, e o melhor que já encontrei deu tudo certo!</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>5 minuto</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>4</p>
+
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/4 (1).jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>David Oliveira</h1>
+                    </div>
+                    <p>usei esse site para descobrir com quem tanto minha esposa conversava e adivinha soó?? descobri
+                        que eu era muitoo cornãao, 😂 a mulher me traia sem dó nem piedade</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>2h</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>33</p>
+
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/5.jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>Luvelga Velga(Lú)</h1>
+                    </div>
+                    <p>eii minha conta demorou mais de 4 horas pra ser ativada por que? no vídeo foi tudo automatico por
+                        que o da minha demorou esse tempo todo pra ser ativada?</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>18h</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>3</p>
+
+                </div>
+            </div>
+            <div id="espaco">
+                <div class="box2">
+                    <img src="img/0.jpg" alt="">
+                    <div class="box3">
+                        <div class="nick">
+                            <h1>Anonima Web</h1>
+                        </div>
+                        <p>Já ativamos sua conta em poucos minutos receba o acesso total</p>
+                    </div>
+
+                </div>
+                <div class="box4">
+                    <div class="curti">
+                        <p class="res" href="">Curtir</p>
+                        <p class="res">Responder</p>
+                        <p>18h</p>
+                    </div>
+
+                    <div class="like">
+                        <img src="img/like.png" alt="">
+                        <img src="img/love.png" alt="">
+                        <p>83</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/6.jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>Dirce Silva</h1>
+                    </div>
+                    <p>Oii venho deixar meu comentário sobre esse site, eu adorei viu por causa dele eu conseguir clonar
+                        o zap no meu amor e andei monitorar ele durante uns 20 dias e agora eu posso afirma que ele não
+                        mim trair com nem uma piriguete não obrigadoo..</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>1h</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>78</p>
+
+                </div>
+            </div>
+
+            <div class="box2">
+                <img src="img/20.jpg" alt="">
+                <div class="box3">
+                    <div class="nick">
+                        <h1>Heitor Santos</h1>
+                    </div>
+                    <p>eu to ultilizando esse site já faz mais de duas semanas e tem sido muito bom saber de tudo que
+                        acontece</p>
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="curti">
+                    <p class="res" href="">Curtir</p>
+                    <p class="res">Responder</p>
+                    <p>3h</p>
+                </div>
+
+                <div class="like">
+                    <img src="img/like.png" alt="">
+                    <img src="img/love.png" alt="">
+                    <p>20</p>
+
+                </div>
+            </div>
+
+
+        </section>
+        <footer>
+            <div class="box4">
+                <a href="">Politica de Privacidade</a>
+                <a href="">Termos de uso</a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
