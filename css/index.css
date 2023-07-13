@@ -8,6 +8,10 @@
   margin-left: 2px;
 }
 
+span{
+  margin-top:-5px;
+}
+
 body{
   display: flex;
   flex-direction: column;
