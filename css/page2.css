@@ -73,7 +73,7 @@ display: flex;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    height: 500px;
+    height: auto;
 }
 .contener p{
     font-size: 16px;
