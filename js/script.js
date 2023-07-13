@@ -17,7 +17,7 @@ function verificarTelefone() {
     }
 }
 
-function formatarTelefone() {
+function formatarTelefone(event) {
     var telefone = document.getElementById('telefone');
     var valor = telefone.value.replace(/\D/g, '');
     var formatado = '';
@@ -34,6 +34,23 @@ function formatarTelefone() {
 
     telefone.value = formatado;
 }
+
+document.getElementById('telefone').addEventListener('keydown', function(event) {
+    var telefone = document.getElementById('telefone');
+    var cursorPos = telefone.selectionStart;
+
+    if (event.key === 'Backspace' && cursorPos > 0 && (telefone.value[cursorPos - 1] === '-' || telefone.value[cursorPos - 1] === ' ' || telefone.value[cursorPos - 1] === ')')) {
+        event.preventDefault();
+        if (telefone.value[cursorPos - 2] === '(') {
+            telefone.setSelectionRange(cursorPos - 3, cursorPos - 3);
+        } else {
+            telefone.setSelectionRange(cursorPos - 1, cursorPos - 1);
+        }
+    } else if (event.key !== 'Backspace') {
+        formatarTelefone();
+    }
+});
+
 
 
 
